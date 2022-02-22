@@ -1,0 +1,6 @@
+{:main hello.core
+ :output-to "out/index.js"
+ :output-dir "out"
+ :target :bundle
+ :closure-defines {cljs.core/*global* "global"}
+ :browser-repl false}

@@ -6,4 +6,3 @@ npx esbuild ./out/index.js --bundle --platform=node --outfile=./out/index.bundle
 node out/index.bundle.js
 ```
 
-`
